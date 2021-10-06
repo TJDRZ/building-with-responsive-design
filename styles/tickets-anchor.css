@@ -1,0 +1,16 @@
+#tickets {
+    position: sticky;
+    top: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    background-color: #fad832;
+}
+
+@media screen and (max-width: 1023px) {
+    #tickets {
+        display: none;
+    }
+}
