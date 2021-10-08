@@ -1,52 +1,54 @@
 #site-nav {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    font-family: 'Gemunu Libre', sans-serif;
-    font-size: 1.2rem;
-    background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  z-index: 1;
 }
 
 #block-menu {
-    display: none;
-    width: 1.5rem;
-    height: 1.5rem;
+  display: none;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 #site-nav > header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 800;
 }
 
 #site-nav > ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* Email image */
 #site-nav > img {
-    width: 2rem;
-    height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 @media screen and (max-width: 1023px) {
-    #block-menu {
-        display: block;
-    }
+  #block-menu {
+    display: block;
+  }
 
-    #site-nav > div {
-        color: #a7aab2;
-    }
+  #site-nav > div {
+    color: #a7aab2;
+  }
 
-    #site-nav > ul, #site-nav > img {
-        display: none;
-    }
+  #site-nav > ul,
+  #site-nav > img {
+    display: none;
+  }
 }

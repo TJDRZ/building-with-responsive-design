@@ -1,0 +1,99 @@
+#footer {
+  padding: 4rem 0;
+  color: white;
+  background-color: black;
+}
+
+#footer-wrapper {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+#footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+#footer-grid a {
+  color: #00b6b6;
+}
+
+#tnw-footer,
+#more-tnw,
+#about-tnw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#tnw-footer {
+  flex-basis: 50%;
+  max-width: 50%;
+  align-items: center;
+}
+
+#more-tnw,
+#about-tnw {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+@media screen and (max-width: 820px) {
+  #tnw-footer {
+    flex-basis: 100%;
+    max-width: 100%;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+  }
+
+  #more-tnw,
+  #about-tnw {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+#tnw-footer ul {
+  display: flex;
+  gap: 1rem;
+}
+
+#tnw-footer h2 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+#tnw-footer p {
+  font-size: 1.5rem;
+}
+
+#tnw-footer img {
+  width: 2rem;
+  height: 2rem;
+}
+
+#more-tnw header,
+#about-tnw header {
+  font-weight: 600;
+}
+
+#more-tnw ul,
+#about-tnw ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#legal {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #9a9da4;
+}
+
+#legal a {
+  color: white;
+}
